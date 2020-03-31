@@ -1,0 +1,7 @@
+# Entry removed Tue Mar 31 08:30:28 2020
+# Reason: ERROR: uXFxPN7Sqxo: YouTube said: This video is no longer available because the YouTube account associated with this video has been terminated.
+#          Sorry about that.
+https://youtube.com/watch?v=uXFxPN7Sqxo
+
+################################
+
