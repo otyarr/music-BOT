@@ -1,0 +1,102 @@
+[19.946813583] 2020-03-31 09:19:31,589 - INFO - launcher: Starting sanity checks
+[19.946813583] 2020-03-31 09:19:31,589 - INFO - launcher: Checking for Python 3.5+
+[19.946813583] 2020-03-31 09:19:31,589 - INFO - launcher: Checking console encoding
+[19.946813583] 2020-03-31 09:19:31,589 - INFO - launcher: Setting console encoding to UTF-8
+[19.946813583] 2020-03-31 09:19:31,589 - INFO - launcher: Ensuring we're in the right environment
+[20.967006683] 2020-03-31 09:19:31,590 - INFO - launcher: Adding local bins/ folder to path
+[340.089797974] 2020-03-31 09:19:31,909 - INFO - launcher: Required checks passed.
+[340.089797974] 2020-03-31 09:19:31,909 - INFO - launcher: Optional checks passed.
+[340.089797974] 2020-03-31 09:19:31,909 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[0.7600162029266357] 2020-03-31 09:19:32,329 - WARNING - musicbot.config | In config.py::MainThread(8024), line 121 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[0.7600162029266357] 2020-03-31 09:19:32,329 - INFO - musicbot.config | In config.py::MainThread(8024), line 132 in run_checks: Using i18n: config/i18n/en.json
+[0.7610130310058594] 2020-03-31 09:19:32,330 - DEBUG - musicbot.bot | In bot.py::MainThread(8024), line 225 in _setup_logging: Set logging level to INFO
+[0.7630081176757812] 2020-03-31 09:19:32,332 - DEBUG - musicbot.json | In json.py::MainThread(8024), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[0.7749559879302979] 2020-03-31 09:19:32,344 - INFO - musicbot.bot | In bot.py::MainThread(8024), line 90 in __init__: Starting MusicBot release-260819-4-gf7d0d74
+[0.7749559879302979] 2020-03-31 09:19:32,344 - INFO - musicbot.bot | In bot.py::MainThread(8024), line 96 in __init__: Loaded autoplaylist with 2530 entries
+[3.8196024894714355] 2020-03-31 09:19:35,389 - DEBUG - musicbot.bot | In bot.py::MainThread(8024), line 951 in on_ready: Connection established, ready to go.
+[3.8196024894714355] 2020-03-31 09:19:35,389 - DEBUG - musicbot.bot | In bot.py::MainThread(8024), line 342 in _cache_app_info: Caching app info
+[4.0315485000610352] 2020-03-31 09:19:35,601 - DEBUG - musicbot.bot | In bot.py::MainThread(8024), line 773 in _scheck_ensure_env: Ensuring data folders exist
+[4.0325462818145752] 2020-03-31 09:19:35,602 - DEBUG - musicbot.bot | In bot.py::MainThread(8024), line 783 in _scheck_ensure_env: Deleted old audio cache
+[4.0325462818145752] 2020-03-31 09:19:35,602 - DEBUG - musicbot.bot | In bot.py::MainThread(8024), line 789 in _scheck_server_permissions: Checking server permissions
+[4.0325462818145752] 2020-03-31 09:19:35,602 - DEBUG - musicbot.bot | In bot.py::MainThread(8024), line 793 in _scheck_autoplaylist: Auditing autoplaylist
+[4.0335440635681152] 2020-03-31 09:19:35,603 - DEBUG - musicbot.bot | In bot.py::MainThread(8024), line 797 in _scheck_configs: Validating config
+[4.0335440635681152] 2020-03-31 09:19:35,603 - DEBUG - musicbot.config | In config.py::MainThread(8024), line 236 in async_validate: Validating options...
+[4.0335440635681152] 2020-03-31 09:19:35,603 - DEBUG - musicbot.config | In config.py::MainThread(8024), line 250 in async_validate: Acquired owner id via API
+[4.0335440635681152] 2020-03-31 09:19:35,603 - DEBUG - musicbot.bot | In bot.py::MainThread(8024), line 800 in _scheck_configs: Validating permissions config
+[4.0335440635681152] 2020-03-31 09:19:35,603 - DEBUG - musicbot.permissions | In permissions.py::MainThread(8024), line 94 in async_validate: Validating permissions...
+[4.0335440635681152] 2020-03-31 09:19:35,603 - DEBUG - musicbot.permissions | In permissions.py::MainThread(8024), line 98 in async_validate: Fixing automatic owner group
+[4.0335440635681152] 2020-03-31 09:19:35,603 - INFO - musicbot.bot | In bot.py::MainThread(8024), line 968 in on_ready: Connected: 689756152304500827/茶々子#0874
+[4.0335440635681152] 2020-03-31 09:19:35,603 - INFO - musicbot.bot | In bot.py::MainThread(8024), line 976 in on_ready: Owner:     439790171236597760/otyarr#6996
+
+[4.0345416069030762] 2020-03-31 09:19:35,604 - INFO - musicbot.bot | In bot.py::MainThread(8024), line 979 in on_ready: Guild List:
+[4.0345416069030762] 2020-03-31 09:19:35,604 - INFO - musicbot.bot | In bot.py::MainThread(8024), line 983 in on_ready:  - Tea Leaf
+[4.0345416069030762] 2020-03-31 09:19:35,604 - INFO - musicbot.bot | In bot.py::MainThread(8024), line 1039 in on_ready: Not bound to any text channels
+[4.0345416069030762] 2020-03-31 09:19:35,604 - INFO - musicbot.bot | In bot.py::MainThread(8024), line 1065 in on_ready: Not autojoining any voice channels
+[1163.6994929313659668] 2020-03-31 09:38:55,269 - INFO - musicbot.bot | In bot.py::MainThread(8024), line 2706 in on_message: 439790171236597760/otyarr#6996: !!summon
+[1164.4418008327484131] 2020-03-31 09:38:56,011 - DEBUG - musicbot.bot | In bot.py::MainThread(8024), line 733 in deserialize_queue: Deserializing queue for 649577356939231252
+[1164.5928924083709717] 2020-03-31 09:38:56,162 - DEBUG - musicbot.bot | In bot.py::MainThread(8024), line 425 in get_player: Created player via deserialization for guild 649577356939231252 with 1 entries
+[1164.5928924083709717] 2020-03-31 09:38:56,162 - DEBUG - musicbot.bot | In bot.py::MainThread(8024), line 536 in on_player_finished_playing: Running on_player_finished_playing
+[1164.5928924083709717] 2020-03-31 09:38:56,162 - DEBUG - musicbot.bot | In bot.py::MainThread(8024), line 709 in serialize_queue: Serializing queue for 649577356939231252
+[1164.5938591957092285] 2020-03-31 09:38:56,163 - INFO - musicbot.bot | In bot.py::MainThread(8024), line 1935 in cmd_summon: Joining Tea Leaf/雑談【通話】
+[1164.5948562622070312] 2020-03-31 09:38:56,164 - DEBUG - musicbot.entry | In entry.py::MainThread(8024), line 56 in get_ready_future: Created future for None
+[1164.5958540439605713] 2020-03-31 09:38:56,165 - INFO - musicbot.entry | In entry.py::MainThread(8024), line 292 in _really_download: Download started: https://youtube.com/watch?v=h04CH9YZcpI
+[1166.4781279563903809] 2020-03-31 09:38:58,047 - INFO - musicbot.entry | In entry.py::MainThread(8024), line 302 in _really_download: Download complete: https://youtube.com/watch?v=h04CH9YZcpI
+[1166.4801225662231445] 2020-03-31 09:38:58,049 - FFMPEG - musicbot.player | In player.py::MainThread(8024), line 293 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-h04CH9YZcpI-John_Mellencamp_-_Jack_Diane.m4a
+[1166.4821174144744873] 2020-03-31 09:38:58,051 - DEBUG - musicbot.player | In player.py::MainThread(8024), line 306 in _play: Playing <musicbot.player.SourcePlaybackCounter object at 0x0466F350> using <discord.voice_client.VoiceClient object at 0x052CDA10>
+[1166.4841125011444092] 2020-03-31 09:38:58,053 - DEBUG - musicbot.bot | In bot.py::MainThread(8024), line 460 in on_player_play: Running on_player_play
+[1166.4841125011444092] 2020-03-31 09:38:58,053 - DEBUG - musicbot.bot | In bot.py::MainThread(8024), line 709 in serialize_queue: Serializing queue for 649577356939231252
+[1166.4851102828979492] 2020-03-31 09:38:58,054 - DEBUG - musicbot.bot | In bot.py::MainThread(8024), line 514 in on_player_play: no channel to put now playing message into
+[1195.2476830482482910] 2020-03-31 09:39:26,817 - INFO - musicbot.bot | In bot.py::MainThread(8024), line 2706 in on_message: 439790171236597760/otyarr#6996: !!play 作業メドレー
+[1196.7022190093994141] 2020-03-31 09:39:28,271 - DEBUG - musicbot.bot | In bot.py::MainThread(8024), line 1408 in cmd_play: {'_type': 'url', 'url': 'ytsearch:作業メドレー', 'ie_key': None, 'extractor': 'generic', 'webpage_url': '作業メドレー', 'webpage_url_basename': '作業メドレー', 'extractor_key': 'Generic'}
+[1199.0317895412445068] 2020-03-31 09:39:30,601 - DEBUG - musicbot.entry | In entry.py::MainThread(8024), line 56 in get_ready_future: Created future for None
+[1199.0327863693237305] 2020-03-31 09:39:30,602 - DEBUG - musicbot.bot | In bot.py::MainThread(8024), line 624 in on_player_entry_added: Running on_player_entry_added
+[1199.0327863693237305] 2020-03-31 09:39:30,602 - DEBUG - musicbot.bot | In bot.py::MainThread(8024), line 709 in serialize_queue: Serializing queue for 649577356939231252
+[1199.0337998867034912] 2020-03-31 09:39:30,603 - INFO - musicbot.entry | In entry.py::MainThread(8024), line 292 in _really_download: Download started: https://www.youtube.com/watch?v=xO2M3hL1fwg
+[1202.0216348171234131] 2020-03-31 09:39:33,591 - INFO - musicbot.entry | In entry.py::MainThread(8024), line 302 in _really_download: Download complete: https://www.youtube.com/watch?v=xO2M3hL1fwg
+[1216.0363354682922363] 2020-03-31 09:39:47,606 - INFO - musicbot.bot | In bot.py::MainThread(8024), line 2706 in on_message: 439790171236597760/otyarr#6996: !!skip
+[1216.0577840805053711] 2020-03-31 09:39:47,627 - DEBUG - musicbot.player | In player.py::Thread-7(25568), line 220 in _playback_finished: Deleting file: audio_cache\youtube-h04CH9YZcpI-John_Mellencamp_-_Jack_Diane.m4a
+[1216.0587818622589111] 2020-03-31 09:39:47,628 - DEBUG - musicbot.player | In player.py::Thread-7(25568), line 225 in _playback_finished: File deleted: audio_cache\youtube-h04CH9YZcpI-John_Mellencamp_-_Jack_Diane.m4a
+[1216.0597789287567139] 2020-03-31 09:39:47,629 - DEBUG - musicbot.bot | In bot.py::MainThread(8024), line 536 in on_player_finished_playing: Running on_player_finished_playing
+[1216.0597789287567139] 2020-03-31 09:39:47,629 - DEBUG - musicbot.bot | In bot.py::MainThread(8024), line 709 in serialize_queue: Serializing queue for 649577356939231252
+[1216.0597789287567139] 2020-03-31 09:39:47,629 - DEBUG - musicbot.entry | In entry.py::MainThread(8024), line 56 in get_ready_future: Created future for audio_cache\youtube-xO2M3hL1fwg-BGM_J-POP_2018_2019.webm
+[1216.0607769489288330] 2020-03-31 09:39:47,630 - FFMPEG - musicbot.player | In player.py::MainThread(8024), line 293 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-xO2M3hL1fwg-BGM_J-POP_2018_2019.webm
+[1216.0627715587615967] 2020-03-31 09:39:47,632 - DEBUG - musicbot.player | In player.py::MainThread(8024), line 306 in _play: Playing <musicbot.player.SourcePlaybackCounter object at 0x0466F290> using <discord.voice_client.VoiceClient object at 0x052CDA10>
+[1216.0627715587615967] 2020-03-31 09:39:47,632 - DEBUG - musicbot.bot | In bot.py::MainThread(8024), line 460 in on_player_play: Running on_player_play
+[1216.0627715587615967] 2020-03-31 09:39:47,632 - DEBUG - musicbot.bot | In bot.py::MainThread(8024), line 709 in serialize_queue: Serializing queue for 649577356939231252
+[1938.9149610996246338] 2020-03-31 09:51:50,484 - INFO - musicbot.bot | In bot.py::MainThread(8024), line 2706 in on_message: 536493518311653377/夏葉#6593: !!play Team Grimoire vs Laur - Grievous Lady
+[1940.3789412975311279] 2020-03-31 09:51:51,948 - DEBUG - musicbot.bot | In bot.py::MainThread(8024), line 1408 in cmd_play: {'_type': 'url', 'url': 'ytsearch:Team Grimoire vs Laur - Grievous Lady', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'Team Grimoire vs Laur - Grievous Lady', 'webpage_url_basename': 'Team Grimoire vs Laur - Grievous Lady', 'extractor_key': 'Generic'}
+[1942.8250806331634521] 2020-03-31 09:51:54,394 - DEBUG - musicbot.entry | In entry.py::MainThread(8024), line 56 in get_ready_future: Created future for None
+[1942.8260788917541504] 2020-03-31 09:51:54,395 - DEBUG - musicbot.bot | In bot.py::MainThread(8024), line 624 in on_player_entry_added: Running on_player_entry_added
+[1942.8260788917541504] 2020-03-31 09:51:54,395 - DEBUG - musicbot.bot | In bot.py::MainThread(8024), line 709 in serialize_queue: Serializing queue for 649577356939231252
+[1942.8270919322967529] 2020-03-31 09:51:54,396 - INFO - musicbot.entry | In entry.py::MainThread(8024), line 292 in _really_download: Download started: https://www.youtube.com/watch?v=Oh6PtweiDys
+[1943.7289626598358154] 2020-03-31 09:51:55,298 - INFO - musicbot.entry | In entry.py::MainThread(8024), line 302 in _really_download: Download complete: https://www.youtube.com/watch?v=Oh6PtweiDys
+[1993.9982507228851318] 2020-03-31 09:52:45,567 - INFO - musicbot.bot | In bot.py::MainThread(8024), line 2706 in on_message: 439790171236597760/otyarr#6996: !!skip
+[1994.0052323341369629] 2020-03-31 09:52:45,574 - DEBUG - musicbot.player | In player.py::Thread-10(9272), line 220 in _playback_finished: Deleting file: audio_cache\youtube-xO2M3hL1fwg-BGM_J-POP_2018_2019.webm
+[1994.0102190971374512] 2020-03-31 09:52:45,579 - DEBUG - musicbot.player | In player.py::Thread-10(9272), line 225 in _playback_finished: File deleted: audio_cache\youtube-xO2M3hL1fwg-BGM_J-POP_2018_2019.webm
+[1994.0112409591674805] 2020-03-31 09:52:45,580 - DEBUG - musicbot.bot | In bot.py::MainThread(8024), line 536 in on_player_finished_playing: Running on_player_finished_playing
+[1994.2994623184204102] 2020-03-31 09:52:45,869 - DEBUG - musicbot.bot | In bot.py::MainThread(8024), line 709 in serialize_queue: Serializing queue for 649577356939231252
+[1994.2994623184204102] 2020-03-31 09:52:45,869 - DEBUG - musicbot.entry | In entry.py::MainThread(8024), line 56 in get_ready_future: Created future for audio_cache\youtube-Oh6PtweiDys-Classical_Hardcore_Team_Grimoire_vs_Laur_-_Grievous_Lady.webm
+[1994.2994623184204102] 2020-03-31 09:52:45,869 - FFMPEG - musicbot.player | In player.py::MainThread(8024), line 293 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-Oh6PtweiDys-Classical_Hardcore_Team_Grimoire_vs_Laur_-_Grievous_Lady.webm
+[1994.3014571666717529] 2020-03-31 09:52:45,871 - DEBUG - musicbot.player | In player.py::MainThread(8024), line 306 in _play: Playing <musicbot.player.SourcePlaybackCounter object at 0x047A4D10> using <discord.voice_client.VoiceClient object at 0x052CDA10>
+[1994.3024547100067139] 2020-03-31 09:52:45,872 - DEBUG - musicbot.bot | In bot.py::MainThread(8024), line 460 in on_player_play: Running on_player_play
+[1994.3024547100067139] 2020-03-31 09:52:45,872 - DEBUG - musicbot.bot | In bot.py::MainThread(8024), line 709 in serialize_queue: Serializing queue for 649577356939231252
+[2233.0437889099121094] 2020-03-31 09:56:44,613 - DEBUG - musicbot.player | In player.py::Thread-13(2992), line 220 in _playback_finished: Deleting file: audio_cache\youtube-Oh6PtweiDys-Classical_Hardcore_Team_Grimoire_vs_Laur_-_Grievous_Lady.webm
+[2233.0447864532470703] 2020-03-31 09:56:44,614 - DEBUG - musicbot.player | In player.py::Thread-13(2992), line 225 in _playback_finished: File deleted: audio_cache\youtube-Oh6PtweiDys-Classical_Hardcore_Team_Grimoire_vs_Laur_-_Grievous_Lady.webm
+[2236.9147996902465820] 2020-03-31 09:56:48,484 - DEBUG - musicbot.bot | In bot.py::MainThread(8024), line 536 in on_player_finished_playing: Running on_player_finished_playing
+[2237.2638461589813232] 2020-03-31 09:56:48,833 - DEBUG - musicbot.bot | In bot.py::MainThread(8024), line 559 in on_player_finished_playing: No content in current autoplaylist. Filling with new music...
+[2238.6137995719909668] 2020-03-31 09:56:50,183 - DEBUG - musicbot.entry | In entry.py::MainThread(8024), line 56 in get_ready_future: Created future for None
+[2238.6137995719909668] 2020-03-31 09:56:50,183 - DEBUG - musicbot.bot | In bot.py::MainThread(8024), line 624 in on_player_entry_added: Running on_player_entry_added
+[2238.6137995719909668] 2020-03-31 09:56:50,183 - INFO - musicbot.entry | In entry.py::MainThread(8024), line 292 in _really_download: Download started: https://youtube.com/watch?v=w3TMe98FJDw
+[2238.6147966384887695] 2020-03-31 09:56:50,184 - DEBUG - musicbot.entry | In entry.py::MainThread(8024), line 56 in get_ready_future: Created future for None
+[2239.6037590503692627] 2020-03-31 09:56:51,173 - INFO - musicbot.entry | In entry.py::MainThread(8024), line 302 in _really_download: Download complete: https://youtube.com/watch?v=w3TMe98FJDw
+[2239.6057305335998535] 2020-03-31 09:56:51,175 - FFMPEG - musicbot.player | In player.py::MainThread(8024), line 293 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-w3TMe98FJDw-Milt_Jackson_-_Bags_Groove.m4a
+[2239.6077256202697754] 2020-03-31 09:56:51,177 - DEBUG - musicbot.player | In player.py::MainThread(8024), line 306 in _play: Playing <musicbot.player.SourcePlaybackCounter object at 0x05286DB0> using <discord.voice_client.VoiceClient object at 0x052CDA10>
+[2239.6077256202697754] 2020-03-31 09:56:51,177 - DEBUG - musicbot.bot | In bot.py::MainThread(8024), line 460 in on_player_play: Running on_player_play
+[2239.6077256202697754] 2020-03-31 09:56:51,177 - DEBUG - musicbot.bot | In bot.py::MainThread(8024), line 709 in serialize_queue: Serializing queue for 649577356939231252
+[2255.5235693454742432] 2020-03-31 09:57:07,093 - INFO - musicbot.bot | In bot.py::MainThread(8024), line 2706 in on_message: 439790171236597760/otyarr#6996: !!shutdown
+[2255.8714265823364258] 2020-03-31 09:57:07,441 - DEBUG - musicbot.player | In player.py::Thread-18(3168), line 220 in _playback_finished: Deleting file: audio_cache\youtube-w3TMe98FJDw-Milt_Jackson_-_Bags_Groove.m4a
+[2255.8724241256713867] 2020-03-31 09:57:07,442 - DEBUG - musicbot.player | In player.py::Thread-18(3168), line 225 in _playback_finished: File deleted: audio_cache\youtube-w3TMe98FJDw-Milt_Jackson_-_Bags_Groove.m4a
+[2256.088561535] launcher-INFO: All done.
